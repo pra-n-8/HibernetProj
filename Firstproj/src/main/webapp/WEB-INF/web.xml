@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CustomerServlet</servlet-name>
+  	<display-name>CustomerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.lti.CustomerServlet.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Cust_servlet</servlet-name>
+  	<display-name>Cust_servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.lti.CustomerServlet.Cust_servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>customerServlet</servlet-name>
+  	<display-name>customerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.lti.CustomerServlet.customerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Cust_servletdelete</servlet-name>
+  	<display-name>Cust_servletdelete</display-name>
+  	<description></description>
+  	<servlet-class>com.lti.CustomerServlet.Cust_servletdelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CustomerServlet</servlet-name>
+  	<url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Cust_servlet</servlet-name>
+  	<url-pattern>/Cust_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>customerServlet</servlet-name>
+  	<url-pattern>/customerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Cust_servletdelete</servlet-name>
+  	<url-pattern>/Cust_servletdelete</url-pattern>
+  </servlet-mapping>
+</web-app>

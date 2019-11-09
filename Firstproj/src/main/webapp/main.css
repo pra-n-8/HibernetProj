@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0px;
+}
+
+.mainBody{
+	width :80%;
+	height:80%;
+	text-align: center;
+	display:block;
+	margin-left:5%;
+	margin-top:20%;
+}
+
+.main_form{
+	display:inline-block;
+	background-color: white;
+	position:absolute;
+}
